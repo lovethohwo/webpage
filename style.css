@@ -1,0 +1,51 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    height: auto;
+    background-color: rgb(237, 237, 238);
+}
+.header {
+    background-color: rgb(26, 26, 46);
+    color: bisque;
+    text-align: center;
+}
+.form {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.form-field{
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    justify-content:space-between;
+    background-color: rgb(247, 247, 250);
+}
+
+.submit{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: rgb(247, 247, 250);
+}
+.footer {
+    color: bisque;
+    text-align: center;
+    background-color: rgb(83, 83, 83);
+}
+
+/* Smaller screens */
+@media (max-width: 650px) {
+    /* Add your CSS rules here */
+.form {
+    width: 90%; 
+}
+
+}
